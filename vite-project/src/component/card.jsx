@@ -1,6 +1,16 @@
-function Card(){
+import React from 'react'
 
-    return ("hi i'm a card")
+const Navbar = () => {
+  return (
+    <div id='nav'>
+      <li>
+        <ul>HOME</ul>
+        <ul>CONTACT</ul>
+        <ul>ADDRESS</ul>
+        <ul>ABOUT</ul>
+      </li>
+    </div>
+  )
 }
 
-export default Card;
+export default Navbar

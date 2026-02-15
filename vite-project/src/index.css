@@ -13,3 +13,18 @@ html, body{
   padding: 50px;
   margin: 20px;
 }
+#nav{
+  padding: 20px;
+  margin: 3px;
+  background-color: seashell;
+}
+#nav li {
+ display: flex;
+ justify-content: space-between;
+}
+#heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
