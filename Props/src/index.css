@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{ 
+  width: 300px;
+  border: 5px solid #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #811313;
+  text-align: center;
+}
