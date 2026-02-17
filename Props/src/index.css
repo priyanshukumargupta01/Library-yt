@@ -20,6 +20,22 @@ html,body{
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
-  background-color: #811313;
+  background-color: #222;
   text-align: center;
+}
+.card p{
+  margin-top: 10px;
+}
+.card button{
+  padding:10px 20px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.card img{
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
 }
