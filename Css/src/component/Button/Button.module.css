@@ -1,0 +1,13 @@
+.btn button{
+    background-color: red;
+    padding: 20px 40px; 
+    color: beige;
+    font-weight: 900;
+    border-radius: 10px;    
+    border: white solid 5px;    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}

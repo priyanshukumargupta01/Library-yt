@@ -1,0 +1,17 @@
+.h{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: 222;
+    padding: 12px 50px;
+    align-items: center;
+    background: #1fa8b4;
+    border-radius: 10px;
+}
+.h button{
+    background-color: hwb(0 9% 22%);
+    padding: 10px 20px ;
+    border-radius: 10px;
+    border: white solid 5px;
+
+}
