@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { useState } from "react";
 
 const App = () => {
@@ -32,3 +32,31 @@ function changeA() {
 };
 
 export default App;
+*/
+
+import React, { useState } from 'react'
+
+const App = () => {
+
+const [first, setFirst] = useState(0)
+
+function change(){
+ setFirst(first+1)
+}
+function changeA(){
+ setFirst(first-1)
+}
+function changeB(){
+ setFirst(first+5)
+}
+  return (
+    <div>
+      <h1>{first}</h1>
+      <button onClick={change}>Increase</button>
+      <button onClick={changeA}>Decrease</button>
+      <button onClick={changeB}>Jump by 5</button>
+    </div>
+  )
+}
+
+export default App
