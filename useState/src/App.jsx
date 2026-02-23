@@ -34,6 +34,7 @@ function changeA() {
 export default App;
 */
 
+/* //implementation of string and single value
 import React, { useState } from 'react'
 
 const App = () => {
@@ -60,3 +61,23 @@ function changeB(){
 }
 
 export default App
+ */
+
+import React, { useState } from "react";
+
+const App = () => {
+  const [num, setNum] = useState({ name: "Priyanshu", age: 20, class: 9 });
+  const change=()=>{
+    setNum(prev=>({...prev,age: 59}))
+  }
+
+
+  return (
+    <div>
+      <h1>{num.name}, {num.age}</h1>
+      <button onClick={change}>change</button>
+    </div>
+  );
+};
+
+export default App;
