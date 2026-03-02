@@ -11,7 +11,7 @@ const App = () => {
       <h1>HI, Priyanshu</h1>
       <button
         onClick={() => {
-          console.log("ji");
+          console.log("button clicked");
         }}
       > 
         Change User
