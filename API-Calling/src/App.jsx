@@ -1,13 +1,13 @@
-import React from 'react'
+
+
 
 const App = () => {
 
-   async function  btnClicked (){
+  const btnClicked = async ()=>{
+    const response = await axios.get("http://localhost:5173/")
 
-  const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
-
-   console.log(await response.json());
-   
+    console.log(response);
+    
   }
 
   return (
