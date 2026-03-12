@@ -2,8 +2,11 @@ import React from 'react'
 
 const App = () => {
 
-  const btnClicked =()=>{
-   console.log("iiiii");
+   async function  btnClicked (){
+
+  const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+
+   console.log(await response.json());
    
   }
 
@@ -13,5 +16,4 @@ const App = () => {
     </div>
   )
 }
-
-export default App
+export default App         
