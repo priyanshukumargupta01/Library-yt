@@ -3,7 +3,8 @@ import React, { useEffect } from 'react'
 const App = () => {
 
   useEffect(function(){
-    console.log("hii")
+    console.log("hi")
+    
   })
 
   return (
