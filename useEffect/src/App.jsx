@@ -6,7 +6,7 @@ const App = () => {
 
   useEffect(() => {
     console.log("hi")
-  }, []) // dependency add ki
+  }, []) 
 
   return (
     <div>
