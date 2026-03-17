@@ -1,14 +1,22 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const App = () => {
 
-  useEffect(function(){
+  const [num, setNum] = useState(0)
+
+  useEffect(() => {
     console.log("hi")
-    
-  })
+  }, []) // dependency add ki
 
   return (
-    <div>App</div>
+    <div>
+      <h1>{num}</h1>
+      <button onClick={() => {
+        setNum(num + 1)
+      }}>
+        click
+      </button>
+    </div>
   )
 }
 
